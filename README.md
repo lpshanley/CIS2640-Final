@@ -7,7 +7,7 @@ This is an android app, written with Cordova. The title is called LottaNotes and
 ### Project Requirements
 
 * Must require user input of some form other than menu/link clicking.
-  TEST
+> This
 * Must require a user account system of some sort to differentiate different users using the app on different devices.
 * Must be multiple pages, Minimum of 5 pages required.
 * Must be Menu Driven. Style the menu to be attractive. No default styles for whatever CSS/JS framework you are using.
@@ -19,7 +19,7 @@ This is an android app, written with Cordova. The title is called LottaNotes and
 * Must use both user provided images, as well as images you have created to make the app visually appealing.
 * Must utilize Cordova’s Camera and GPS functions in one way or another.
 * An additional Cordova plug-in not taught in this semester must be added to the app. For help go to the following address and pick an item to add.
-  * [https://www.tutorialspoint.com/cordova/index.htm](https://www.tutorialspoint.com/cordova/index.htm "Tutorials Point"){:target="_blank"}
+  * [https://www.tutorialspoint.com/cordova/index.htm](https://www.tutorialspoint.com/cordova/index.htm "Tutorials Point")
 
 A rough idea of your app must be posted to the discussion forum the first week and explain how you plan to meet all the requirements so both you and I have a roadmap to how you will complete this task on time. There will be no late work allowed on this project as its due date will be the last day of class.
 
