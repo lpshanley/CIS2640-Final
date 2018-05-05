@@ -1,0 +1,37 @@
+<div class="row">
+
+	<div class="col s10 offset-s1">
+
+		<div class="center-align" style="margin-bottom: 2.5rem;">
+			<h4>login.</h4>
+		</div>
+
+		<div class="input-field">
+			<i class="material-icons prefix">account_circle</i>
+			<input id="username" type="text" class="validate" ng-model="username">
+			<label for="username">Email</label>
+		</div>
+
+		<div class="input-field">
+			<i class="material-icons prefix">lock</i>
+			<input id="password" type="password" class="validate" ng-model="password">
+			<label for="password">Password</label>
+		</div>
+
+		<button class="btn waves-effect waves-teal btn-flat" ng-click="login()" type="submit">Login
+			<i class="material-icons right">send</i>
+		</button>
+
+		<a href="#!/account/register" class="btn waves-effect waves-teal btn-flat">
+			Register
+		</a>
+
+		<br>
+
+		<div style="margin-top: 10px;">
+			{{ error }}
+		</div>
+
+	</div>
+
+</div>

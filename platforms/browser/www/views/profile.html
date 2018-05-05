@@ -1,0 +1,42 @@
+<div class="row">
+
+	<div class="col s10 offset-s1">
+
+		<div class="center-align" style="margin-bottom: 2.5rem;">
+			<h4>profile.</h4>
+			<img src="{{ profile_pic }}" class="s12 col" style="margin-bottom: 1rem;" alt="">
+			<button type="button" class="btn btn-floating" ng-click="capturePhoto();" name="button">
+				 <i class="material-icons">camera</i>
+			</button>
+			<h5>{{ progress }}</h5>
+			<h5 style="padding-bottom: .5rem;">{{ email }}</h5>
+	    <h6 style="padding-bottom: 1.5rem;">Member Since: {{ created_at | date: 'MMM d, yyyy' }}</h6>
+		</div>
+
+    <div class="input-field">
+			<input id="firstName" type="text" class="validate" ng-model="firstName">
+			<label class="active" for="firstName">First Name</label>
+		</div>
+
+		<div class="input-field">
+			<input id="lastName" type="text" class="validate" ng-model="lastName">
+			<label class="active" for="lastName">Last Name</label>
+		</div>
+
+		<div class="input-field">
+			<input id="phone" type="text" class="validate" ng-model="phone">
+			<label class="active" for="phone">Phone Number</label>
+		</div>
+
+		<div class="input-field">
+			<input id="password" ng-model="password" type="password" class="validate">
+			<label for="password">Password</label>
+		</div>
+
+		<button class="btn waves-effect waves-teal btn-flat" ng-click="updateUser()">Update
+			<i class="material-icons right">save</i>
+		</button>
+
+	</div>
+
+</div>

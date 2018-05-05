@@ -1,0 +1,25 @@
+<div style="margin-top: 1rem;">
+	<a class="waves-effect waves-light btn" href="#!/notes/create">New Note</a>
+</div>
+
+<br>
+
+<table class="striped z-depth-1">
+	<thead>
+		<tr>
+			<th>Message</th>
+			<th>Date</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="note in notes" ng-click="navigate()">
+			<td>{{ note.note | limitTo: 20 }}{{ note.note.length > 20 ? '...' : ''}}</td>
+			<td>{{ note.date | date: 'M/d/yy' }}</td>
+			<td class="right-align">
+				<a href="#!/notes/{{ note.note_id }}" class="btn btn-small">Edit</a>
+				<button ng-click="deleteNote()" class="btn btn-small">Delete</button>
+			</td>
+		</tr>
+	</tbody>
+</table>

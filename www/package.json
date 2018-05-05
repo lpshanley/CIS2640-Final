@@ -1,0 +1,17 @@
+{
+  "name": "cis-2640-final",
+  "version": "1.0.0",
+  "description": "This is my final project for cis 2640",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Shanley",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-middleware": "^2.1.9",
+    "angular-route": "^1.6.10",
+    "materialize-css": "^1.0.0-beta"
+  }
+}

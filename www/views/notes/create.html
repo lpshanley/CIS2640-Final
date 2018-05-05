@@ -1,0 +1,16 @@
+<div style="margin-top: 1rem;">
+	<a class="waves-effect waves-light btn" href="#!/notes/">Back</a>
+</div>
+
+<div style="padding-bottom: 10px">
+	<h6>{{ clock | date: 'medium' }}</h6>
+	<h6>Long: {{ long }}</h6>
+	<h6>Lat: {{ lat }}</h6>
+</div>
+
+<div class="input-field s12">
+	<textarea id="note" class="materialize-textarea" ng-model="note"></textarea>
+	<label for="note">Note</label>
+</div>
+
+<a class="waves-effect waves-light btn" ng-click="createNewNote()">Submit</a>

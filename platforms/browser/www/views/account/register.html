@@ -1,0 +1,44 @@
+<div class="row">
+	
+	<div class="col s10 offset-s1">
+		
+		<div class="center-align" style="margin-bottom: 2.5rem;">
+			<h4>register.</h4>
+		</div>
+		
+		<div class="input-field">
+			<input id="firstName" type="text" class="validate" ng-model="firstName">
+			<label for="firstName">First Name</label>
+		</div>
+		
+		<div class="input-field">
+			<input id="lastName" type="text" class="validate" ng-model="lastName">
+			<label for="lastName">Last Name</label>
+		</div>
+		
+		<div class="input-field">
+			<input id="username" type="text" class="validate" ng-model="username">
+			<label for="username">Email</label>
+		</div>
+
+		<div class="input-field">
+			<input id="phone" type="text" class="validate" ng-model="phone">
+			<label for="phone">Phone Number</label>
+		</div>
+		
+		<div class="input-field">
+			<input id="password" ng-model="password" type="password" class="validate">
+			<label for="password">Password</label>
+		</div>
+		
+		<button class="btn waves-effect waves-teal btn-flat" ng-click="registerUser()">Submit
+			<i class="material-icons right">send</i>
+		</button>
+				
+		<a href="#!/account/login" class="btn waves-effect waves-teal btn-flat">
+			Login
+		</a>
+		
+	</div>
+	
+</div>
