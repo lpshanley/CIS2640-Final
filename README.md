@@ -1,14 +1,7 @@
-# A Blank PhoneGap App
+# CIS 2460 Final
 
-## Usage
+## Project
 
-### PhoneGap CLI
+This is an android app, written with Cordova.
 
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+### Requirements
